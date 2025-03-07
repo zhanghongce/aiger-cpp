@@ -1,0 +1,33 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# Executable produced by your project
+test
+test.exe
+c_output/*
+cpp_output/*
+input_files/*
+test.aag
+test.aig
+
+# Temporary files and backup files
+*~
+*.tmp
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE settings
+.vscode/
+.idea/
+
+# Build directories
+build/
