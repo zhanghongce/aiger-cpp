@@ -127,6 +127,9 @@ class Aiger
   const std::vector<AigerAnd>& getAnds() const { return ands; }
   const std::vector<std::string>& getComments() const { return comments; }
 
+  void clearOutputs() { outputs.clear(); }
+  unsigned nextUnusedLiteral() const { return ((maxvar<<1) + 2) ;}
+
   //----------------------------------------------------------------------
   // API to add components
   //----------------------------------------------------------------------
